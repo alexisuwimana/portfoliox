@@ -47,7 +47,7 @@ body { background-color: coral; }
     border-radius: 1.33333px;
 }
 
-.cap { 
+.cap {
     /*  Cap */
     margin-top: 13px;
     position: absolute;
@@ -70,7 +70,7 @@ body { background-color: coral; }
     margin-top: 13px;
     mix-blend-mode: normal;
     opacity: 0.35;
-    border: 1px solid #FFFFFF;
+    border: 1px solid #ffffff;
     box-sizing: border-box;
     border-radius: 2.66667px;
 }
@@ -83,7 +83,7 @@ body { background-color: coral; }
     right: 78.33px;
     top: 24.33px;
     margin-top: 13px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 .connection-2 {
     /* Cellular_Connection-path */
@@ -93,7 +93,7 @@ body { background-color: coral; }
     height: 6px;
     right: 73.67px;
     top: 22.33px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .connection-3 {
@@ -104,7 +104,7 @@ body { background-color: coral; }
     right: 69px;
     top: 20px;
     margin-top: 13px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .connection-4 {
@@ -115,7 +115,7 @@ body { background-color: coral; }
     right: 64.33px;
     top: 17.67px;
     margin-top: 13px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .wifi-1 {
@@ -126,7 +126,7 @@ body { background-color: coral; }
     right: 49.36px;
     top: 24.92px;
     margin-top: 13px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 .wifi-2 {
@@ -137,7 +137,7 @@ body { background-color: coral; }
     right: 46.69px;
     top: 21.12px;
     margin-top: 13px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 
 /* Wifi-path */
@@ -148,7 +148,7 @@ body { background-color: coral; }
     right: 44.03px;
     top: 17.33px;
     margin-top: 13px;
-    background: #FFFFFF;
+    background: #ffffff;
 }
 .icon-1 {
     /* Vector */
@@ -279,7 +279,7 @@ body { background-color: coral; }
 
     /* Theme 3 / Neutral 11 */
     
-    color: #FFFFFF;
+    color: #ffffff;
     
     /* Inside Auto Layout */
     flex: none;
@@ -312,7 +312,7 @@ body { background-color: coral; }
     right: 37.52%;
     top: 60.59%;
     bottom: 9.36%;
-    background: #FFFFFF;
+    background: #ffffff;
     
     /* Theme 3 / Primary 1 */
     
@@ -342,10 +342,7 @@ ul {
 
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 
-@media (
-    max-width: 800px
-    )
-    {
+@media (max-width: 800px) {
     .flex-item-right .flex-item-left {
         flex: 100%;
     }
