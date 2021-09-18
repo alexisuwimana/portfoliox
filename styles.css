@@ -115,7 +115,7 @@ body { background-color: coral; }
     right: 64.33px;
     top: 17.67px;
     margin-top: 13px;
-    background: #ffffff;
+    background: #fff;
 }
 
 .wifi-1 {
@@ -131,7 +131,7 @@ body { background-color: coral; }
 
 .wifi-2 {
     /* Wifi-path */
-    position: absolute; 
+    position: absolute;
     width: 9.95px;
     height: 3.63px;
     right: 46.69px;
@@ -160,7 +160,7 @@ body { background-color: coral; }
     margin-top: 13px;
     
     /* Base / 300 - Tertiary */
-    border: 2px solid #ACB7C3;
+    border: 2px solid #acb7c3;
 }
 
 .icon-2 {
@@ -172,7 +172,7 @@ body { background-color: coral; }
     bottom: 50%;
     
     /* Base / 300 - Tertiary */
-    border: 2px solid #ACB7C3;
+    border: 2px solid #acb7c3;
 }
 
 .icon-3 {
@@ -185,11 +185,12 @@ body { background-color: coral; }
     bottom: 29.17%;
     
     /* Base / 300 - Tertiary */
-    border: 2px solid #ACB7C3;
+    border: 2px solid #acb7c3;
 }
 
 .headline{
     /* Headline */
+    
     /* Auto Layout */
     display: flex; 
     flex-direction: column;
@@ -198,12 +199,12 @@ body { background-color: coral; }
     position: absolute;
     width: 100%;
     height: auto;
-    left: 0px;
+    left: 0.01px;
     top: 92px;
     margin-top: 30px;
     
     /* Theme 3 / Neutral 1 */
-    background: #1C1A19;
+    background: #1c1a19;
 }
 
 .heading-1 {
@@ -212,7 +213,7 @@ body { background-color: coral; }
     height: 124px;
     left: 24px;
     top: 120px;
-    font-family: Crete Round;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 56px;
@@ -222,7 +223,7 @@ body { background-color: coral; }
     letter-spacing: 0.37px;
     
     /* Theme 3 / Primary 1 */
-    color: #FF6B00;
+    color: #ff6b00;
     
     /* Inside Auto Layout */
     flex: none;
@@ -237,7 +238,7 @@ body { background-color: coral; }
     height: 27px;
     left: 24px;
     top: 256px;
-    font-family: Roboto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
@@ -250,14 +251,14 @@ body { background-color: coral; }
     
     /* Theme 3 / Primary 4 */
     
-    color: #FFF5E1;
+    color: #fff5e1;
     
     /* Inside Auto Layout */
     
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 12px 0px;
+    margin: 12px;
 }
 
 .content {
@@ -269,7 +270,7 @@ body { background-color: coral; }
     
     /* Theme 1 / Body Reguler 2 */
     
-    font-family: Verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -279,7 +280,7 @@ body { background-color: coral; }
 
     /* Theme 3 / Neutral 11 */
     
-    color: #ffffff;
+    color: #fff;
     
     /* Inside Auto Layout */
     flex: none;
@@ -290,7 +291,7 @@ body { background-color: coral; }
 
 .vectorframe {
     position: absolute;
-    width: 100%px;
+    width: 100%;
     height: auto;
     left: 45%;
     top: 45%;
@@ -339,7 +340,7 @@ ul {
       display: block;
       padding: 12px;
     }
-    
+
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 
 @media (max-width: 800px) {
