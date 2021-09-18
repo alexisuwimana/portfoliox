@@ -63,7 +63,7 @@ body { background-color: coral; }
 .border {
     /* Border */
     position: absolute;
-    width: 22px; 
+    width: 22px;
     height: 11.33px;
     right: 17px;
     top: 17.33px;
@@ -192,7 +192,7 @@ body { background-color: coral; }
     /* Headline */
     
     /* Auto Layout */
-    display: flex; 
+    display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 120px 24px;
@@ -224,7 +224,6 @@ body { background-color: coral; }
     
     /* Theme 3 / Primary 1 */
     color: #ff6b00;
-    
     /* Inside Auto Layout */
     flex: none;
     order: 0;
