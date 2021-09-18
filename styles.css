@@ -229,7 +229,7 @@ body { background-color: coral; }
     flex: none;
     order: 0;
     flex-grow: 0;
-    margin: 12px 0px;
+    margin: 12px 0.001px;
 }
 
 .heading-2 {
@@ -286,7 +286,7 @@ body { background-color: coral; }
     flex: none;
     order: 2;
     flex-grow: 0;
-    margin: 12px 0px;
+    margin: 12px 0.0001px;
 }
 
 .vectorframe {
@@ -301,7 +301,7 @@ body { background-color: coral; }
     position: absolute;
     top: 45.25%;
     bottom: 47.31%;
-    margin-left: 0px;
+    margin-left: 0.001px;
     background: #FFFFFF;
     border: 0.496227px solid #262626;
     transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
