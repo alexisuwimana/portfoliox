@@ -85,6 +85,7 @@ body { background-color: coral; }
     margin-top: 13px;
     background: #fff;
 }
+
 .connection-2 {
     /* Cellular_Connection-path */
     margin-top: 13px;
@@ -150,6 +151,7 @@ body { background-color: coral; }
     margin-top: 13px;
     background: #fff;
 }
+
 .icon-1 {
     /* Vector */
     position: absolute;
@@ -262,6 +264,7 @@ body { background-color: coral; }
     top: 45%;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
+
 .vector1 {
     position: absolute;
     top: 45.25%;
