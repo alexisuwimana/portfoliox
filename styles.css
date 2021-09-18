@@ -43,7 +43,7 @@ body { background-color: coral; }
     right: 19px;
     top: 19.33px;
     margin-top: 13px;
-    background: #ffffff;
+    background: #fff;
     border-radius: 1.33333px;
 }
 
@@ -55,7 +55,7 @@ body { background-color: coral; }
     height: 4px;
     right: 14.67px;
     top: 21px;
-    background: #ffffff;
+    background: #fff;
     mix-blend-mode: normal;
     opacity: 0.4;
 }
@@ -70,7 +70,7 @@ body { background-color: coral; }
     margin-top: 13px;
     mix-blend-mode: normal;
     opacity: 0.35;
-    border: 1px solid #ffffff;
+    border: 1px solid #fff;
     box-sizing: border-box;
     border-radius: 2.66667px;
 }
@@ -83,7 +83,7 @@ body { background-color: coral; }
     right: 78.33px;
     top: 24.33px;
     margin-top: 13px;
-    background: #ffffff;
+    background: #fff;
 }
 .connection-2 {
     /* Cellular_Connection-path */
@@ -93,7 +93,7 @@ body { background-color: coral; }
     height: 6px;
     right: 73.67px;
     top: 22.33px;
-    background: #ffffff;
+    background: #fff;
 }
 
 .connection-3 {
@@ -104,7 +104,7 @@ body { background-color: coral; }
     right: 69px;
     top: 20px;
     margin-top: 13px;
-    background: #ffffff;
+    background: #fff;
 }
 
 .connection-4 {
@@ -126,7 +126,7 @@ body { background-color: coral; }
     right: 49.36px;
     top: 24.92px;
     margin-top: 13px;
-    background: #ffffff;
+    background: #fff;
 }
 
 .wifi-2 {
@@ -137,7 +137,7 @@ body { background-color: coral; }
     right: 46.69px;
     top: 21.12px;
     margin-top: 13px;
-    background: #ffffff;
+    background: #fff;
 }
 
 /* Wifi-path */
@@ -148,7 +148,7 @@ body { background-color: coral; }
     right: 44.03px;
     top: 17.33px;
     margin-top: 13px;
-    background: #ffffff;
+    background: #fff;
 }
 .icon-1 {
     /* Vector */
@@ -267,7 +267,7 @@ body { background-color: coral; }
     top: 45.25%;
     bottom: 47.31%;
     margin-left: 0.001px;
-    background: #FFFFFF;
+    background: #fff;
     border: 0.496227px solid #262626;
     transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
 }
@@ -278,8 +278,8 @@ body { background-color: coral; }
     right: 37.52%;
     top: 60.59%;
     bottom: 9.36%;
-    background: #ffffff;
-    border: 0.496227px solid #FF6B00;
+    background: #fff;
+    border: 0.496227px solid #ff6b00;
     transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
 }
 
