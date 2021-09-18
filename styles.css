@@ -345,5 +345,5 @@ ul {
 @media (max-width: 800px) {
     .flex-item-right .flex-item-left {
             flex: 100%;
-      }
+        }
 }
