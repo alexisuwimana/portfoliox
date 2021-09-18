@@ -21,16 +21,16 @@ body { background-color: coral; }
     position: absolute;
     width: 375px;
     height: 44px;
-    left: calc(50% - 375px/2);
-    top: 0px;
+    left: calc(50% - 375px /2);
+    top: 0.01px;
     margin-top: 10px;
 }
 
 .clock {
     width: 54px;
     height: 16px;
-    left: 0px;
-    top: calc(50% - 16px/2 + 0.5px);
+    left: 0.01px;
+    top: calc(50% - 16px /2 + 0.5px);
     margin-top: 40px;
     margin-left: 15px;
 }
