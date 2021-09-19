@@ -2,11 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
 body {
   margin: 0;
   font-family: roboto;
-  font-size: 10px;
   background-color: black;
   background-image: url('./images/occ-background-1.jpeg');
 }
@@ -20,7 +18,7 @@ a {
 /* header */
 .header {
   background-color: rgb(66, 63, 63);
-  box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .1);
   position: fixed;
   width: 100%;
   z-index: 3;
@@ -36,7 +34,7 @@ a {
 }
   
   /* menu */
-  
+
 .header .menu {
   clear: both;
   max-height: 0;
@@ -62,7 +60,7 @@ a {
   transition: background 0.2s ease-out;
   width: 18px;
 }
-  
+
 .header .menu-icon .navicon:before,
 .header .menu-icon .navicon:after {
   background: rgb(255, 255, 255);
@@ -73,33 +71,33 @@ a {
   transition: all .2s ease-out;
   width: 100%;
 }
-  
+
 .header .menu-icon .navicon:before {
   top: 5px;
 }
-  
+
 .header .menu-icon .navicon:after {
   top: -5px;
 }
-  
+
 /* menu btn */
-  
+
 .header .menu-btn {
   display: none;
 }
- 
+
 .header .menu-btn:checked ~ .menu {
   max-height: 240px;
 }
-  
+
 .header .menu-btn:checked ~ .menu-icon .navicon {
   background: transparent;
 }
-  
+
 .header .menu-btn:checked ~ .menu-icon .navicon:before {
     transform: rotate(-45deg);
 }
-  
+
 .header .menu-btn:checked ~ .menu-icon .navicon:after {
   transform: rotate(45deg);
 }
@@ -108,9 +106,9 @@ a {
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
- 
+
 .headline {
-    /* Auto Layout */
+  /* Auto Layout */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -122,7 +120,7 @@ a {
   top: 92px;
   margin-top: 30px;
 }
-  
+
 .heading-1 {
   position: static;
   width: 327px;
@@ -141,7 +139,7 @@ a {
   flex-grow: 0;
   margin: 12px 0.001px;
 }
-  
+
 .heading-2 {
   position: static;
   width: 100%;
@@ -161,7 +159,7 @@ a {
   flex-grow: 0;
   margin: 12px;
 }
-  
+
 .content {
   position: static;
   width: 100%;
@@ -188,7 +186,7 @@ a {
   top: 45%;
   transform: matrix(-1, 0, 0, 1, 0, 0);
 }
-  
+
 .vector1 {
   position: absolute;
   top: 45.25%;
@@ -198,7 +196,7 @@ a {
   border: 0.496227px solid #262626;
   transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
 }
-  
+
 .vector2 {
   position: absolute;
   left: 34.57%;
@@ -209,29 +207,28 @@ a {
   border: 0.496227px solid #ff6b00;
   transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
 }
-  
+
 .groupe4 {
   margin-top: 13px;
 }
- 
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-  
+ 
 li {
   float: left;
   display: block;
   padding: 12px;
 }
-  
+
   /* Responsive layout - makes a one column-layout instead of a two-column layout */
-  
-  @media (max-width: 800px) {
-    .flex-item-right .flex-item-left {
-      flex: 100%;
-    }
-  }
-  
+
+@media (max-width: 800px) {
+.flex-item-right .flex-item-left {
+  flex: 100%;
+}
+}
