@@ -6,11 +6,11 @@ body { background-color: coral; }
       background-color: black;
       color: white;
       padding: 2px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     margin-top: -25px;
-     margin-left: -8px;
-     margin-right: -8px;
-     flex: 100%;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      margin-top: -25px;
+      margin-left: -8px;
+      margin-right: -8px;
+      flex: 100%;
     }
 
 .toolbar-container { display: flex; }
@@ -184,7 +184,7 @@ body { background-color: coral; }
     border: 2px solid #acb7c3;
 }
 
-.headline{
+.headline {
     /* Auto Layout */
     display: flex;
     flex-direction: column;
@@ -285,9 +285,6 @@ body { background-color: coral; }
     border: 0.496227px solid #ff6b00;
     transform: matrix(-0.96, 0.27, 0.27, 0.96, 0, 0);
 }
-
-
-/* ///////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .groupe4 {
     margin-top: 13px;
