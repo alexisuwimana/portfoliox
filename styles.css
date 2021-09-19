@@ -1,187 +1,110 @@
-body { background-color: coral; }
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background-color: black;
+  background-image: url('./images/occ-background-1.jpeg');
+}
 
 * { box-sizing: border-box; }
 
-.flex-item-toolbar {
-  background-color: black;
-  color: white;
-  padding: 2px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin-top: -25px;
-  margin-left: -8px;
-  margin-right: -8px;
-  flex: 100%;
+a {
+  color: rgb(255, 255, 255);
 }
 
-.toolbar-container { display: flex; }
-
-.name { margin-left: 15px; }
-
-.status-bar-dark {
-  position: absolute;
-  width: 375px;
-  height: 44px;
-  left: calc(50% - 375px / 2);
-  top: 0.01px;
-  margin-top: 10px;
+/* header */
+.header {
+  background-color: rgb(66, 63, 63);
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  position: fixed;
+  width: 100%;
+  z-index: 3;
 }
 
-.clock {
-  width: 54px;
-  height: 16px;
-  left: 0.01px;
-  top: calc(50% - 16px / 2 + 0.5px);
-  margin-top: 40px;
-  margin-left: 15px;
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 2em;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 8px;
 }
 
-.battery {
-  /* Capacity */
-  position: absolute;
+/* menu */
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: rgb(255, 255, 255);
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
   width: 18px;
-  height: 7.33px;
-  right: 19px;
-  top: 19.33px;
-  margin-top: 13px;
-  background: #fff;
-  border-radius: 1.33333px;
 }
 
-.cap {
-  /*  Cap */
-  margin-top: 13px;
+.header .menu-icon .navicon::before,
+.header .menu-icon .navicon::after {
+  background: rgb(255, 255, 255);
+  content: '';
+  display: block;
+  height: 100%;
   position: absolute;
-  width: 1.33px;
-  height: 4px;
-  right: 14.67px;
-  top: 21px;
-  background: #fff;
-  mix-blend-mode: normal;
-  opacity: 0.4;
+  transition: all 0.2s ease-out;
+  width: 100%;
 }
 
-.border {
-  /* Border */
-  position: absolute;
-  width: 22px;
-  height: 11.33px;
-  right: 17px;
-  top: 17.33px;
-  margin-top: 13px;
-  mix-blend-mode: normal;
-  opacity: 0.35;
-  border: 1px solid #fff;
-  box-sizing: border-box;
-  border-radius: 2.66667px;
+.header .menu-icon .navicon::before {
+  top: 5px;
 }
 
-.connection-1 {
-  /* Cellular_Connection-path */
-  position: absolute;
-  width: 3px;
-  height: 4px;
-  right: 78.33px;
-  top: 24.33px;
-  margin-top: 13px;
-  background: #fff;
+.header .menu-icon .navicon::after {
+  top: -5px;
 }
 
-.connection-2 {
-  /* Cellular_Connection-path */
-  margin-top: 13px;
-  position: absolute;
-  width: 3px;
-  height: 6px;
-  right: 73.67px;
-  top: 22.33px;
-  background: #fff;
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
 }
 
-.connection-3 {
-  /* Cellular_Connection-path */
-  position: absolute;
-  width: 3px;
-  height: 8.33px;
-  right: 69px;
-  top: 20px;
-  margin-top: 13px;
-  background: #fff;
+.header .menu-btn:checked ~ .menu {
+  max-height: 240px;
 }
 
-.connection-4 {
-  /* Cellular_Connection-path */
-  position: absolute;
-  width: 3px;
-  height: 10.67px;
-  right: 64.33px;
-  top: 17.67px;
-  margin-top: 13px;
-  background: #fff;
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
 }
 
-.wifi-1 {
-  /* Wifi-path */
-  position: absolute;
-  width: 4.63px;
-  height: 3.37px;
-  right: 49.36px;
-  top: 24.92px;
-  margin-top: 13px;
-  background: #fff;
+.header .menu-btn:checked ~ .menu-icon .navicon::before {
+  transform: rotate(-45deg);
 }
 
-.wifi-2 {
-  /* Wifi-path */
-  position: absolute;
-  width: 9.95px;
-  height: 3.63px;
-  right: 46.69px;
-  top: 21.12px;
-  margin-top: 13px;
-  background: #fff;
+.header .menu-btn:checked ~ .menu-icon .navicon::after {
+  transform: rotate(45deg);
 }
 
-/* Wifi-path */
-.wifi-3 {
-  position: absolute;
-  width: 15.27px;
-  height: 4.74px;
-  right: 44.03px;
-  top: 17.33px;
-  margin-top: 13px;
-  background: #fff;
-}
-
-.icon-1 {
-  /* Vector */
-  position: absolute;
-  left: 16.67%;
-  right: 16.67%;
-  top: 29.17%;
-  bottom: 70.83%;
-  margin-top: 13px;
-  border: 2px solid #acb7c3;
-}
-
-.icon-2 {
-  position: absolute;
-  left: 16.67%;
-  right: 16.67%;
-  top: 50%;
-  margin-top: 13px;
-  bottom: 50%;
-  border: 2px solid #acb7c3;
-}
-
-.icon-3 {
-  /* Vector */
-  position: absolute;
-  left: 16.67%;
-  right: 16.67%;
-  top: 70.83%;
-  margin-top: 13px;
-  bottom: 29.17%;
-  border: 2px solid #acb7c3;
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon::after {
+  top: 0;
 }
 
 .headline {
@@ -196,7 +119,6 @@ body { background-color: coral; }
   left: 0.01px;
   top: 92px;
   margin-top: 30px;
-  background: #1c1a19;
 }
 
 .heading-1 {
@@ -205,7 +127,7 @@ body { background-color: coral; }
   height: 124px;
   left: 24px;
   top: 120px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: crete Round, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 56px;
@@ -224,7 +146,7 @@ body { background-color: coral; }
   height: 27px;
   left: 24px;
   top: 256px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Roboto, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -244,7 +166,7 @@ body { background-color: coral; }
   height: auto;
   left: 24px;
   top: 295px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -254,6 +176,8 @@ body { background-color: coral; }
   order: 2;
   flex-grow: 0;
   margin: 12px 0.0001px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .vectorframe {
