@@ -141,7 +141,7 @@ body { background-color: coral; }
   background: #fff;
 }
 
-  /* Wifi-path */
+/* Wifi-path */
 .wifi-3 {
   position: absolute;
   width: 15.27px;
@@ -306,7 +306,7 @@ li {
 /* Responsive layout - makes a one column-layout instead of a two-column layout */
 
 @media (max-width: 800px) {
-    .flex-item-right .flex-item-left {
-        flex: 100%;
-        }
+  .flex-item-right .flex-item-left {
+    flex: 100%;
+  }
 }
