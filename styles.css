@@ -36,7 +36,7 @@ body { background-color: coral; }
 }
 
 .battery {
-    /* Capacity */
+  /* Capacity */
   position: absolute;
   width: 18px;
   height: 7.33px;
@@ -48,7 +48,7 @@ body { background-color: coral; }
 }
 
 .cap {
-    /*  Cap */
+  /*  Cap */
   margin-top: 13px;
   position: absolute;
   width: 1.33px;
@@ -61,7 +61,7 @@ body { background-color: coral; }
 }
 
 .border {
-    /* Border */
+  /* Border */
   position: absolute;
   width: 22px;
   height: 11.33px;
@@ -76,7 +76,7 @@ body { background-color: coral; }
 }
 
 .connection-1 {
-    /* Cellular_Connection-path */
+  /* Cellular_Connection-path */
   position: absolute;
   width: 3px;
   height: 4px;
@@ -87,7 +87,7 @@ body { background-color: coral; }
 }
 
 .connection-2 {
-    /* Cellular_Connection-path */
+  /* Cellular_Connection-path */
   margin-top: 13px;
   position: absolute;
   width: 3px;
@@ -98,7 +98,7 @@ body { background-color: coral; }
 }
 
 .connection-3 {
-    /* Cellular_Connection-path */
+  /* Cellular_Connection-path */
   position: absolute;
   width: 3px;
   height: 8.33px;
@@ -109,7 +109,7 @@ body { background-color: coral; }
 }
 
 .connection-4 {
-    /* Cellular_Connection-path */
+  /* Cellular_Connection-path */
   position: absolute;
   width: 3px;
   height: 10.67px;
@@ -120,7 +120,7 @@ body { background-color: coral; }
 }
 
 .wifi-1 {
-    /* Wifi-path */
+  /* Wifi-path */
   position: absolute;
   width: 4.63px;
   height: 3.37px;
@@ -131,7 +131,7 @@ body { background-color: coral; }
 }
 
 .wifi-2 {
-    /* Wifi-path */
+  /* Wifi-path */
   position: absolute;
   width: 9.95px;
   height: 3.63px;
@@ -141,7 +141,7 @@ body { background-color: coral; }
   background: #fff;
 }
 
-/* Wifi-path */
+  /* Wifi-path */
 .wifi-3 {
   position: absolute;
   width: 15.27px;
@@ -153,7 +153,7 @@ body { background-color: coral; }
 }
 
 .icon-1 {
-    /* Vector */
+  /* Vector */
   position: absolute;
   left: 16.67%;
   right: 16.67%;
@@ -174,7 +174,7 @@ body { background-color: coral; }
 }
 
 .icon-3 {
-    /* Vector */
+  /* Vector */
   position: absolute;
   left: 16.67%;
   right: 16.67%;
@@ -185,7 +185,7 @@ body { background-color: coral; }
 }
 
 .headline {
-    /* Auto Layout */
+  /* Auto Layout */
   display: flex;
   flex-direction: column;
   align-items: flex-start;
