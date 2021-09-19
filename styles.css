@@ -11,10 +11,6 @@ body {
   background-image: url('./images/occ-background-1.jpeg');
 }
 
-.logo{
-  display: flex;
-}
-
 * { box-sizing: border-box; }
 
 a {
@@ -36,6 +32,7 @@ a {
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
+  margin-top: 8px;
 }
   
   /* menu */
